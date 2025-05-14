@@ -1,0 +1,64 @@
+.label-delay {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.delay {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    margin-top: 8px;
+}
+
+legend {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2E2F42;
+}
+
+fieldset {
+    width: 270px;
+    height: 78px;
+    display: flex;
+    margin-bottom: 24px;
+}
+
+label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2E2F42;
+    display: flex;
+}
+
+button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 360px;
+    height: 40px;
+    background-color: #4E75FF;
+    border: none;
+}
+
+button:hover {
+    background-color: #6C8CFF;
+}
+/* .form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+} */
+ .labeldelay{
+    display: flex;
+    gap: 15px ;
+    flex-direction: column;
+ }
