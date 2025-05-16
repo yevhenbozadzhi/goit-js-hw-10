@@ -27,7 +27,7 @@ document.querySelector('.form').addEventListener('submit', function (event) {
         message: `✅ Fulfilled promise in ${fulfilledDelay}ms`,
         position: 'topRight',
       });
-      console.log(`✅ Fulfilled promise in ${fulfilledDelay}ms`);
+
     })
     .catch((rejectedDelay) => {
       iziToast.error({
@@ -35,6 +35,6 @@ document.querySelector('.form').addEventListener('submit', function (event) {
         message: `❌ Rejected promise in ${rejectedDelay}ms`,
         position: 'topRight',
       });
-      console.log(`❌ Rejected promise in ${rejectedDelay}ms`);
+
     });
 });
